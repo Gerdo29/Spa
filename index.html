@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indah Clinica de Belleza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-pink-200 text-gray-800 py-4">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">Indah Clinica de Belleza</h1>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-pink-600 hover:text-pink-800">Inicio</a></li>
+                <li><a href="#servicios" class="text-pink-600 hover:text-pink-800">Servicios</a></li>
+                <li><a href="#ubicacion" class="text-pink-600 hover:text-pink-800">Ubicación</a></li>
+                <li><a href="#reserva" class="text-pink-600 hover:text-pink-800">Reservar Cita</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="servicios" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-800">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Servicios reductivos</h3>
+                    <p class="text-gray-600">Tratamientos especializados para reducir medidas corporales y mejorar la apariencia de la piel.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Tratamientos rejuvenecedores e hidratantes </h3>
+                    <p class="text-gray-600">Terapias diseñadas para revitalizar la piel, reducir signos de envejecimiento y proporcionar hidratación profunda.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Limpieza facial </h3>
+                    <p class="text-gray-600">Proceso de purificación profunda de la piel del rostro, eliminando impurezas y células muertas para un cutis más saludable y radiante.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Tratamiento de vitaminas con dermapen </h3>
+                    <p class="text-gray-600">Técnica de microagujas que mejora la absorción de vitaminas en la piel, estimulando la producción de colágeno y elastina.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Hilos tensores </h3>
+                    <p class="text-gray-600">Procedimiento mínimamente invasivo para levantar y tensar la piel, proporcionando un efecto lifting sin cirugía.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Botox  </h3>
+                    <p class="text-gray-600">Inyecciones de toxina botulínica para reducir arrugas de expresión y líneas finas, especialmente en frente y contorno de ojos.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Remodelacion de labios y nariz con ácido hialuronico</h3>
+                    <p class="text-gray-600">Técnica de relleno para dar volumen a los labios o modificar sutilmente la forma de la nariz sin cirugía.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Eliminación de verruga</h3>
+                    <p class="text-gray-600">Procedimiento para remover verrugas de forma segura y efectiva, mejorando la apariencia de la piel.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Sueros</h3>
+                    <p class="text-gray-600">Aplicación de concentrados ricos en principios activos para tratar diversas preocupaciones cutáneas de forma intensiva.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Uñas</h3>
+                    <p class="text-gray-600">Servicios de manicura y pedicura, incluyendo esmaltado, diseños artísticos y tratamientos para fortalecer las uñas.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Perforaciones</h3>
+                    <p class="text-gray-600">Servicio profesional y seguro de perforación corporal para colocar piercings en diversas zonas del cuerpo.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-600">Pestañas</h3>
+                    <p class="text-gray-600">Tratamientos para realzar las pestañas, como extensiones, tinte o lifting, para una mirada más expresiva.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="reserva" class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-800">Reservar Cita</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="nombre" class="block text-gray-700 font-semibold mb-2">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" required>
+                </div>
+                <div class="mb-4">
+                    <label for="servicio" class="block text-gray-700 font-semibold mb-2">Servicio</label>
+                    <select id="servicio" name="servicio" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="manicura">Manicura</option>
+                        <option value="pedicura">Pedicura</option>
+                        <option value="masaje">Masaje</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="fecha" class="block text-gray-700 font-semibold mb-2">Fecha</label>
+                    <input type="date" id="fecha" name="fecha" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" required>
+                </div>
+                <button type="submit" class="bg-pink-600 text-white px-4 py-2 rounded-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50">Reservar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Indah Clinica de Belleza. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
